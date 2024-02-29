@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <!-- Local -->
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Flex Demonstration</title>
+</head>
+
+<body>
+  <main>
+    <h1>CSS Flex Demonstration</h1>
+
+    <p>
+      <code class="inline">display:flex</code> puts child elements in a one-dimensional (e.g. x- or y-axis)
+      container. This means flex containers behave as rows or columns.
+    </p>
+    <h2>Examples</h2>
+    <p>
+      First we define a div that will act as the parent (row or column). Keep in mind that the
+      class names here are mentioned only to identify where particular rules are applied; they are
+      not part of any standard.
+    </p>
+    <h3>.container-row</h3>
+    <p>Child elements in the row are arranged left to right.</p>
+    <div class="container-row">
+      <div class="item">.item</div>
+      <div class="item">.item</div>
+      <div class="item">.item</div>
+    </div>
+    <h3>.container-row</h3>
+    <p>Here again for good measure...</p>
+    <div class="container-row">
+      <div class="item">.item</div>
+      <div class="item">.item</div>
+      <div class="item">.item</div>
+    </div>
+
+    <h3>.container-col</h3>
+    <p>
+      Child elements in the column are arranged top to bottom. Another rule (<code class="inline">flex-grow: 1</code>)
+      specifies that each
+      element in the column should fill the width of the parent.
+    </p>
+    <div class="container-col">
+      <div class="item">.item</div>
+      <div class="item">.item</div>
+      <div class="item">.item</div>
+    </div>
+
+    <h2>Source</h2>
+    <iframe class="codepen" height="300" style="width: 100%" title="CSS Flex Demonstration"
+      src="https://codepen.io/mcdonaldjc/embed/zYbeLvY?default-tab=html&theme-id=dark" loading="lazy" allowfullscreen>
+    </iframe>
+  </main>
+</body>
+
+</html>
