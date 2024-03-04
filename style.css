@@ -101,11 +101,11 @@ section.experience {
   gap: 2rem;
 
   div.example {
-    width: 45%;
+    width: 50%;
   }
 
   div.summary {
-    width: 55%;
+    width: 50%;
 
     h2 {
       margin-block-start: 0;
@@ -115,6 +115,11 @@ section.experience {
       padding-inline-start: 1rem;
     }
   }
+}
+
+section.experience.alt {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 section.experience:last-of-type {
@@ -130,12 +135,15 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  section.experience {
+
+  section.experience,
+  section.experience.alt {
     display: flex;
     flex-direction: column;
 
     div.placeholder-img,
-    div.summary {
+    div.summary,
+    div.example {
       width: 100%;
     }
   }
