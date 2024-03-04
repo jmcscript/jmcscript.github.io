@@ -79,7 +79,7 @@ section {
   max-width: var(--width-outer);
 }
 
-section.hero {
+div.hero {
   align-items: center;
   justify-content: center;
   background-color: var(--primary);
