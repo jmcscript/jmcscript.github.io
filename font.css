@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/font/lora.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: Lora-Italic;
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/font/lora.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/font/opensans.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Italic;
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/font/opensans-italic.ttf") format("ttf");
+}
