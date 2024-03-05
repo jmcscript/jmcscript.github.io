@@ -1,0 +1,30 @@
+{
+  "name": "jmcscript.github.io",
+  "version": "1.0.0",
+  "description": "Resume for James McDonald",
+  "main": "index.html",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcscript/jmcscript.github.io.git"
+  },
+  "keywords": [
+    "jmcscript",
+    "resume",
+    "james",
+    "mcdonald"
+  ],
+  "author": "James McDonald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://jmcscript.com/issues"
+  },
+  "homepage": "https://jmcscript.com",
+  "devDependencies": {
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}

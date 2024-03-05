@@ -1,3 +1,5 @@
+/* stylelint-disable property-no-vendor-prefix */
+
 /* 
   A (more) Modern Reset
   - My thanks to Andy Bell! ~> https://piccalil.li/blog/a-more-modern-css-reset/
@@ -65,7 +67,7 @@ h4 {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
-  color: currentColor;
+  color: currentcolor;
 }
 
 /* Make images easier to work with */
