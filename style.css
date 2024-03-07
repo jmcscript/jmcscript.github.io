@@ -304,10 +304,6 @@ img {
 }
 
 @media screen and (width <=480px) {
-  body {
-    font-family: monospace;
-  }
-
   img {
     border-radius: unset;
   }
