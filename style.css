@@ -1,5 +1,5 @@
-@import url('reset.css');
-@import url('font.css');
+@import url('css/reset.css');
+@import url('css/font.css');
 
 :root {
   --background: #121212;
@@ -28,7 +28,7 @@ html {
   background-color: var(--background);
   color: var(--on-background);
   font-weight: normal;
-  letter-spacing: 0.5;
+  letter-spacing: 0.5px;
   line-height: 1.65;
 }
 
@@ -52,7 +52,7 @@ h6 {
 h1 {
   font-size: calc(var(--scale-multiplier) * 6.25rem);
   font-weight: 300;
-  letter-spacing: -1.5;
+  letter-spacing: -1.5px;
 
   &.title {
     text-align: center;
@@ -62,7 +62,7 @@ h1 {
 h2 {
   font-size: calc(var(--scale-multiplier) * 3.875rem);
   font-weight: 300;
-  letter-spacing: -0.5;
+  letter-spacing: -0.5px;
 }
 
 h3 {
@@ -74,7 +74,7 @@ h3 {
 h4 {
   font-size: calc(var(--scale-multiplier) * 1.95rem);
   font-weight: normal;
-  letter-spacing: 0.25;
+  letter-spacing: 0.25px;
 }
 
 h5 {
@@ -85,8 +85,8 @@ h5 {
 
 h6 {
   font-size: calc(var(--scale-multiplier) * 1.1675rem);
-  font-weight: medium;
-  letter-spacing: 0.15;
+  font-weight: normal;
+  letter-spacing: 0.15px;
 }
 
 main {
@@ -164,7 +164,7 @@ header {
 }
 
 .nowrap {
-  text-wrap: nowrap;
+  white-space: nowrap;
 }
 
 div.hero {
@@ -354,7 +354,7 @@ img {
     font-family: serif;
     font-size: unset;
     margin: unset;
-    margin-block: 2em, 0;
+    margin-block: 2em 0;
     padding: unset;
   }
 
