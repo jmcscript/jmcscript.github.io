@@ -1,4 +1,4 @@
-@import url("font.css");
+@import url('font.css');
 
 :root {
   --background: #121212;
@@ -13,7 +13,7 @@
   --link: rgb(184 184 184);
   --width-outer: 1400px;
   --width-inner: 900px;
-  --scale-multiplier: .75;
+  --scale-multiplier: 0.75;
   --section-gap: 3rem;
 }
 
@@ -106,7 +106,7 @@ p {
 }
 
 li {
-  margin-block-end: .75rem;
+  margin-block-end: 0.75rem;
 }
 
 a:link,
@@ -138,7 +138,7 @@ header {
         border: 2px solid var(--primary);
         border-radius: 24px;
         display: flex;
-        gap: .75rem;
+        gap: 0.75rem;
         padding-block: 10px;
         padding-inline: 24px;
 
@@ -159,11 +159,7 @@ header {
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
 
 .nowrap {
@@ -273,53 +269,53 @@ img {
       width: 50%;
     }
   }
+}
 
-  @media screen and (width <=768px) {
-    :root {
-      --scale-multiplier: .5;
-    }
+@media screen and (width <=768px) {
+  :root {
+    --scale-multiplier: 0.5;
+  }
 
-    img {
-      border-radius: unset;
-    }
+  img {
+    border-radius: unset;
+  }
 
-    header {
-      > ul.contact > li > a > span {
-        &.label {
-          display: none;
-        }
-      }
-    }
-
-    section.experience,
-    section.experience.alt {
-      display: flex;
-      flex-direction: column;
-
-      > div {
-        &.summary,
-        &.example {
-          width: 100%;
-        }
+  header {
+    > ul.contact > li > a > span {
+      &.label {
+        display: none;
       }
     }
   }
 
-  @media screen and (width <=480px) {
-    body {
-      font-family: monospace;
-    }
+  section.experience,
+  section.experience.alt {
+    display: flex;
+    flex-direction: column;
 
-    img {
-      border-radius: unset;
+    > div {
+      &.summary,
+      &.example {
+        width: 100%;
+      }
     }
+  }
+}
+
+@media screen and (width <=480px) {
+  body {
+    font-family: monospace;
+  }
+
+  img {
+    border-radius: unset;
   }
 }
 
 @media print {
   @page {
     size: a4 portrait;
-    margin-inline: .75in;
+    margin-inline: 0.75in;
   }
 
   :root {
