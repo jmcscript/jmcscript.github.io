@@ -307,6 +307,15 @@ img {
   img {
     border-radius: unset;
   }
+
+  html,
+  body {
+    font-size: 14px;
+  }
+
+  div.hero > p {
+    font-size: 12px;
+  }
 }
 
 @media print {
@@ -384,7 +393,7 @@ img {
       padding-inline: unset;
       padding-block: 0;
       font-family: serif;
-      font-size: 6pt;
+      font-size: 12pt;
       text-align: center;
     }
   }
