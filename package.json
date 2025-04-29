@@ -24,7 +24,7 @@
   },
   "homepage": "https://jmcscript.com",
   "devDependencies": {
-    "stylelint": "^16.8.1",
-    "stylelint-config-standard": "^36.0.1"
+    "stylelint": "^16.19.1",
+    "stylelint-config-standard": "^38.0.0"
   }
 }
