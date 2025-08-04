@@ -321,7 +321,8 @@ img {
 @media print {
   @page {
     size: a4 portrait;
-    margin-inline: 0.75in;
+    margin-left: 0.75in;
+    margin-right: 0.75in;
   }
 
   :root {
@@ -335,7 +336,6 @@ img {
   body {
     font-family: sans-serif;
     font-size: 11pt;
-    overflow: hidden;
   }
 
   main,
