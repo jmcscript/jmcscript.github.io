@@ -159,22 +159,6 @@ header {
   }
 }
 
-* .material-symbols-outlined {
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: 'Material Symbols Outlined';
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  font-feature-settings: 'liga';
-  -webkit-font-smoothing: antialiased;
-  font-variation-settings: 'FILL' 1;
-}
-
 .nowrap {
   white-space: nowrap;
 }
